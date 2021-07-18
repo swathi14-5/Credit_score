@@ -9,7 +9,7 @@ clf = GaussianNB()
 classes = { 0: "Bad Risk", 1: "Good Risk" }
 
 def load_model():
-	df=read_csv('gernam.csv');
+	df=read_csv('german_cs.csv');
 
 	# Spliting Target Variable
 	numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
